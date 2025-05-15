@@ -280,10 +280,6 @@ img {
 }
 
 .glonimove {
-  font-family: "Glonimove", sans-serif;
-}
-
-h2 {
   font-family: "Glonimove", sans-serif !important;
 }
 
@@ -382,7 +378,6 @@ h2 {
   --h4-color-dark-theme: #ffffff;
   --h4-color: var(--h4-color-light-theme);
   /* Heading 5 */
-  --h5-font-family: var(--font-primary);
   --h5-max-font-size: 30;
   --h5-min-font-size: 18;
   --h5-font-weight: 700;
@@ -2015,13 +2010,13 @@ h2 {
   pointer-events: none !important;
 }
 
-.pointer-events-links-none a {
+/* .pointer-events-links-none a {
   pointer-events: !important;
 }
 
 a.pointer-events-links-none {
   pointer-events: !important;
-}
+} */
 
 /*!========================================================================
  * 33. Counter Circle
